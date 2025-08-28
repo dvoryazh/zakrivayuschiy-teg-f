@@ -67,13 +67,15 @@
 
 .card__image-container {
   position: relative;
+  border-block: var(--border);
 }
 
 .card__image {
+  display: block;
   inline-size: 100%;
-  block-size: auto;
-  border-top: var(--border);
-  border-bottom: var(--border);
+  block-size: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .card__image-lable {
@@ -145,7 +147,7 @@
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: 7px;
+  gap: 5px;
   padding-right: 25px;
   padding-bottom: 25px;
 }
@@ -166,8 +168,8 @@
 }
 
 .card__icon-button {
-  inline-size: 38px;
-  block-size: 38px;
+  max-block-size: 38px;
+  padding: 0;
   box-sizing: border-box;
   cursor: pointer;
   background-color: transparent;
