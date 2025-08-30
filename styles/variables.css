@@ -5,7 +5,7 @@
     --main-font-weight: 410;
     --title-main-font-weight: 715;
     --main-font-size: 18;
-    --block-width: clamp(23.438rem, 16.051rem + 36.93vw, 43.75rem);
+    --block-width: clamp(23.688rem, 16.535rem + 30.52vw, 44rem);
     --background-color: #fff;
     --border: 2px solid #000;
     --accent-project-color: #000;
